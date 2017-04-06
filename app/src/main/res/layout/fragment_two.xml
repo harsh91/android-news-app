@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment"
+    android:paddingBottom="?android:attr/actionBarSize">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:weightSum="1"
+                android:id="@+id/interestlayer1">
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_technology_text"
+                    android:background="@drawable/blurred2"
+                    android:id="@+id/technology"
+                    android:gravity="center|bottom"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_business_text"
+                    android:background="@drawable/blurred3"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/business"
+                    android:gravity="center|bottom"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:weightSum="1"
+                android:id="@+id/interestlayer2"
+                android:layout_below="@+id/interestlayer1"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_photography_text"
+                    android:background="@drawable/blurred4"
+                    android:id="@+id/photography"
+                    android:gravity="center|bottom"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_cooking_text"
+                    android:background="@drawable/blurred13"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/cooking"
+                    android:gravity="center|bottom"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:weightSum="1"
+                android:id="@+id/interestlayer3"
+                android:layout_below="@+id/interestlayer2"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_politics_text"
+                    android:background="@drawable/blurred6"
+                    android:id="@+id/politics"
+                    android:gravity="center|bottom"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_stockmarket_text"
+                    android:background="@drawable/blurred7"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/stockmarket"
+                    android:gravity="center|bottom"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:weightSum="1"
+                android:id="@+id/interestlayer4"
+                android:layout_below="@+id/interestlayer3"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_gaming_text"
+                    android:background="@drawable/blurred8"
+                    android:id="@+id/gaming"
+                    android:gravity="center|bottom"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_science_text"
+                    android:background="@drawable/blurred9"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/science"
+                    android:gravity="center|bottom"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:weightSum="1"
+                android:id="@+id/interestlayer5"
+                android:layout_below="@+id/interestlayer4"
+                android:layout_marginTop="5dp">
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_marketing_text"
+                    android:background="@drawable/blurred11"
+                    android:id="@+id/marketing"
+                    android:gravity="center|bottom"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="@string/button_interest_fashion_text"
+                    android:background="@drawable/blurred12"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/fashion"
+                    android:gravity="center|bottom"/>
+
+            </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

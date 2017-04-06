@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="news.harsh.com.news.activity.NewsDetailActivity"
+    tools:showIn="@layout/activity_news_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/newsImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/news1"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heavy rain causes rush hour in Delhi, Gurgaon and Hyderabad"
+                android:layout_below="@+id/newsImage"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/subHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delhi and Gurgaon braced for massive traffic jams after heavy rain on Wednesday morning."
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:layout_below="@+id/heading"/>
+
+            <TextView
+                android:id="@+id/newsContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:text="New Delhi:  Heavy rain in Delhi and Gurgaon on Wednesday morning slowed traffic during rush hour as the sky darkened and roads were flooded within seconds.
+                \n\nIt poured heavily also in Hyderabad, where officials advised people to stay indoors between 9.30 and 11.30 am. Seven people have died in rain-related accidents in the city.
+                \n\nMassive jams were reported from major roads in Delhi and between the capital and Gurgaon, where the police had warned people early in a tweet to be 'patient and disciplined' and 'stick to lanes'.
+                \n\nUS Secretary of State John Kerry, whose visits to religious sites in Delhi were cancelled, joked at IIT: 'You guys deserve an award for getting here today. I don't know if you guys came in boats or amphibious vehicles of some kind but I salute you'. Mr Kerry was caught in traffic also on Monday, when he arrived to jammed roads from the airport to Delhi.
+                \n\nArmy Chief General Dalbir Singh was also stuck in traffic for an hour this morning.
+
+In the first burst of rain on Wednesday morning, angry office goers tweeted about being stuck in the jams that have become synonymous with rain in the capital."
+                android:layout_below="@+id/subHeading"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

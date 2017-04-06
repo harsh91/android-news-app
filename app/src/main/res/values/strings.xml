@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Effective Navigation</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="one">ONE</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+    <string name="title_activity_icon_tabs">FSU News</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="title_activity_news_detail">FSU News</string>
+    <string name="button_interest_technology_text">Technology \n\n\n Add to click</string>
+    <string name="button_interest_business_text">Business \n\n\n Add to click</string>
+    <string name="button_interest_photography_text">Photography \n\n\n Add to click</string>
+    <string name="button_interest_cooking_text">Cooking \n\n\n Add to click</string>
+    <string name="button_interest_politics_text">Politics \n\n\n Add to click</string>
+    <string name="button_interest_stockmarket_text">Stock Market \n\n\n Add to click</string>
+    <string name="button_interest_gaming_text">Gaming \n\n\n Add to click</string>
+    <string name="button_interest_science_text">Science \n\n\n Add to click</string>
+    <string name="button_interest_marketing_text">Marketing \n\n\n Add to click</string>
+    <string name="button_interest_fashion_text">Fashion \n\n\n Add to click</string>
+    <string name="button_interest_extra_text">\n\n\n Add to click</string>
+</resources>

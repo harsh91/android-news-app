@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="news.harsh.com.news.fragments.OneFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="?android:attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/topNews"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:src="@drawable/news1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:layout_marginTop="@dimen/top_news_margin">
+
+                <LinearLayout
+                    android:id="@+id/news1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:clickable="true">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news1"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Heavy Rain Causes Rush Hour Chaos In Delhi, Gurgaon, Hyderabad"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/heading_medium"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top_news_margin"
+                        android:gravity="left"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/news2"
+                    android:layout_below="@+id/news1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/top_news_margin"
+                    android:clickable="true">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news2"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Did Trump reveals his plan or he confuses Opposition"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/heading_medium"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top_news_margin"
+                        android:gravity="left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/news3"
+                    android:layout_below="@+id/news2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/top_news_margin"
+                    android:clickable="true">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news3"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="California celebrating its 125th year for creating the best ever profits "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/heading_medium"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top_news_margin"
+                        android:gravity="left"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/news4"
+                    android:layout_below="@+id/news3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/top_news_margin"
+                    android:clickable="true">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news4"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="India leads series by 1/0"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/heading_medium"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top_news_margin"
+                        android:gravity="left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/news5"
+                    android:layout_below="@+id/news4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/top_news_margin"
+                    android:clickable="true">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news2"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Trump ready to Tempt Clinton"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/heading_medium"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top_news_margin"
+                        android:gravity="left"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/news6"
+                    android:layout_below="@+id/news5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/top_news_margin"
+                    android:clickable="true">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/news1"
+                        android:scaleType="centerCrop"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rain fails Government again !!"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/heading_medium"
+                        android:textStyle="bold"
+                        android:paddingLeft="@dimen/top_news_margin"
+                        android:gravity="left"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
